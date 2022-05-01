@@ -72,7 +72,7 @@ export const data = {
         {
           name: 'Zolpidem',
           size: '10mg',
-          quantity: '1',
+          quantity: 'x1',
         },
       ],
       hospital: 1,
@@ -92,7 +92,7 @@ export const data = {
         {
           name: 'Zolpidem',
           size: '10mg',
-          quantity: '1',
+          quantity: 'x1',
         },
       ],
       hospital: 1,
@@ -112,7 +112,7 @@ export const data = {
         {
           name: 'Zolpidem',
           size: '10mg',
-          quantity: '1',
+          quantity: 'x1',
         },
       ],
       hospital: 1,
@@ -132,7 +132,7 @@ export const data = {
         {
           name: 'Zolpidem',
           size: '10mg',
-          quantity: '2',
+          quantity: 'x2',
         },
       ],
       hospital: 1,
@@ -152,7 +152,7 @@ export const data = {
         {
           name: 'Zolpidem',
           size: '10mg',
-          quantity: '2',
+          quantity: 'x2',
         },
       ],
       hospital: 0,
