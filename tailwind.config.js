@@ -9,5 +9,10 @@ module.exports = {
       },
     },
   },
+  variants: {
+    extend: {
+      padding: ['last'],
+    }
+  },
   plugins: [require('daisyui')],
 }
