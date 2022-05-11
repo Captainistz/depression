@@ -19,7 +19,7 @@ const Home: NextPage = (props: any) => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <section className='min-h-screen overflow-hidden flex flex-col'>
-        <Navbar />
+        <Navbar {...props} />
         <Profile {...props} />
         <Hospital {...props} />
         <Dose {...props} />
@@ -34,6 +34,7 @@ export const getStaticProps: GetStaticProps = async () => {
     props: {
       hospital: data['hospital'],
       dose: data['dose'],
+      messages: data['messages'],
     },
   }
 }
